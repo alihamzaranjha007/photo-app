@@ -1,0 +1,388 @@
+#header {
+    width: 100%;
+}
+
+#navbarid {
+    top: 0;
+}
+
+.navbar-nav a {
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.navbar-toggler {
+    background-color: #ffffff !important;
+    border: none;
+}
+
+.nav-link {
+    color: #ffffff !important;
+}
+
+.nav-link:focus,
+.nav-link:hover {
+    color: #16a085 !important;
+}
+
+.navbar-nav li {
+    margin-right: 20px;
+}
+
+.carousel-item {
+    width: 100%;
+    height: 100vh;
+    min-height: 300px;
+}
+
+a.btn {
+    background-color: #16a085;
+    color: #ffffff;
+    padding: 10px;
+    padding-right: 40px;
+    padding-left: 40px;
+    border-radius: 0px !important;
+}
+
+a.btn:hover {
+    background-color: transparent;
+    border: 1px solid #16a085;
+}
+
+.bg-1,
+.bg-2,
+.bg-3 {
+    background-image: url(../images/bg.png);
+    background-size: cover;
+}
+
+.carousel-caption {
+    top: 40%;
+}
+
+.carousel-caption h5 {
+    font-size: 35px;
+    letter-spacing: 5px;
+}
+
+.carousel .carousel-indicators button {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+#icons {
+    overflow: hidden !important;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(223, 223, 223);
+}
+
+#icons h5,
+#about h5 {
+    color: #16a085;
+}
+
+#about {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+#about .row {
+    align-items: center;
+}
+
+#about p {
+    font-size: 14px;
+    padding: 20px;
+    padding-left: 0;
+}
+
+#about .image {
+    width: 260px;
+    margin: 0 auto;
+}
+
+#about img {
+    width: 100%;
+}
+
+#galleray {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    background-color: rgb(223, 223, 223);
+}
+
+#galleray .image {
+    width: 100%;
+}
+
+#galleray .logo-image {
+    margin-bottom: 30px;
+    width: 60px;
+}
+
+#galleray p {
+    font-size: 15px;
+    padding-right: 30px;
+    padding-left: 30px;
+}
+
+#galleray .gallerayitems {
+    align-items: center;
+}
+
+.navbar {
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1;
+}
+
+#form {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../images/Livello\ 3.png);
+    background-size: cover;
+}
+
+#form .email-heading {
+    color: #ffffff;
+    font-weight: 300;
+    text-align: center;
+}
+
+#form .row #email{
+    justify-content: center;
+}
+#form input {
+    align-content: center;
+    width: 200px;
+    height: 40px;
+    border-radius: 1px;
+    border: none;
+}
+
+#form input::placeholder {
+    font-weight: 500;
+    padding-left: 15px;
+    color: rgb(58, 58, 58);
+}
+
+#form button {
+    width: 50px;
+    border: none;
+    background-color: #16a085;
+    text-align: center;
+    border-radius: 1px;
+}
+#form .row{
+    justify-content: center;
+}
+#form i {
+    color: #ffffff;
+}
+
+#bottom-part {
+    width: 100%;
+    padding-top: 50px;
+    height: 350px;
+    background-color: rgb(223, 223, 223);
+}
+
+#bottom-part p {
+    margin-bottom: 30px;
+}
+
+#bottom-part .input-group {
+    width: 50%;
+}
+#bottom-part #apple{
+    justify-content: end;
+}
+#bottom-part #android{
+    justify-content: left;
+}
+
+#bottom-part button {
+    width: 45%;
+    padding-left: 15px;
+    border: none;
+    background-color: #18b192;
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 1px;
+}
+
+#bottom-part span {
+    width: 60px;
+    padding: 12px;
+    color: #ffffff;
+    background-color: #16a085;
+}
+
+#footer {
+    width: 100%;
+    justify-content: center;
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-bottom: 30px;
+    padding-top: 50px;
+}
+
+#footer h6 {
+    text-transform: uppercase;
+}
+
+#footer p {
+    font-weight: 500;
+}
+
+#footer img {
+    float: right;
+}
+
+#footer span {
+    color: #16a085;
+}
+
+/*for tablet*/
+
+@media only screen and (max-width: 800px) {
+    
+    #navbarSupportedContent {
+        background-color: #ffffff;
+        width: 100px;
+    }
+
+    .navbar .nav-link {
+        padding-left: 15px;
+        color: #000000 !important;
+    }
+    .carousel .carousel-indicators button {
+        height: 15px;
+        width: 15px;
+    }
+    #icons{
+        padding-top: 30px;
+        padding-bottom: 0;
+    }
+    
+    #icons .col-md-3 {
+        width: 50%;
+        margin-bottom: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #galleray .col-md-4 {
+
+        margin-bottom: 20px;
+        width: 50%;
+    }
+
+    #about .image {
+        width: 150px;
+    }
+
+    #galleray {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #footer {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+}
+
+/*for mobile*/
+@media only screen and (max-width: 600px) {
+    .navbar .nav-link {
+        text-align: center;
+    }
+
+    .carousel-caption h5 {
+        font-size: 15px;
+    }
+
+    .carousel-caption p {
+        font-size: 12px;
+    }
+
+    a.btn {
+        font-size: 12px;
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+
+    #icons .col-md-3 {
+        width: 100%;
+    }
+
+    #about {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #galleray .col-md-4 {
+        width: 100%;
+    }
+
+    #about .image {
+        width: 140px;
+    }
+
+    #galleray {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+
+    #form {
+        height: 350px;
+    }
+
+    #bottom-part {
+        padding-top: 30px;
+        height: 350px;
+    }
+    
+    #bottom-part .col-md-6 {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+
+    #bottom-part #apple{
+        justify-content: center;
+    }
+    #bottom-part #android{
+        justify-content: center;
+    }
+
+    #footer {
+        padding-bottom: 0px;
+        padding-top: 20px;
+    }
+
+    #footer .col-6 h6 {
+        font-size: 10px;
+    }
+    #footer .col-6 p{
+        font-size: 10px;
+    }
+    #footer .col-6 img{
+        width: 40px;
+    }
+}

@@ -1,0 +1,163 @@
+#header .navbar {
+    background-color: #000000;
+}
+
+#hero-img {
+    width: 100%;
+}
+
+#hero-img .container .row {
+    align-items: center;
+    height: 450px;
+    margin-top: 50px;
+}
+
+#hero-img .image {
+    display: flex;
+    justify-content: center;
+}
+
+#hero-img img {
+    width: 160px;
+}
+
+#icons {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#icons .features .col-md-4 {
+    background-color: #ffffff;
+    padding: 50px;
+    border: 1px solid #16a085;
+}
+
+#icons .features i {
+    font-size: 60px;
+    color: #16a085;
+}
+
+#benefits {
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 50px;
+}
+#benefits .image{
+    display: flex;
+    justify-content: center;
+}
+#benefits p {
+    padding-bottom: 30px;
+}
+
+#benefits .progress {
+    height: 25px;
+    margin-bottom: 30px;
+}
+
+#benefits .progress .progress-bar {
+    font-size: 15px;
+}
+
+
+/* gallery */
+#photo-gallery {
+    background-color: rgb(223, 223, 223);
+}
+
+/* body {
+    background-color: #434c50;
+    min-height: 100vh;
+    font: normal 16px sans-serif;
+    padding: 40px 0;
+} */
+
+.container.gallery-container {
+    color: #35373a;
+    min-height: 100vh;
+    padding: 30px 50px;
+}
+
+.gallery-container h1 {
+    text-align: center;
+    margin-top: 50px;
+    font-family: 'Droid Sans', sans-serif;
+    font-weight: bold;
+}
+
+.tz-gallery {
+    padding: 40px;
+}
+
+/* Override bootstrap column paddings */
+.tz-gallery .row>div {
+    padding: 2px;
+}
+
+.tz-gallery .lightbox img {
+    width: 100%;
+    border-radius: 0;
+    position: relative;
+}
+
+.tz-gallery .lightbox:before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -13px;
+    margin-left: -13px;
+    opacity: 0;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Glyphicons Halflings';
+    content: '\e003';
+    pointer-events: none;
+    z-index: 9000;
+    transition: 0.4s;
+}
+
+
+#photo-gallery.tz-gallery .lightbox:after {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    content: '';
+    transition: 0.4s;
+}
+
+#photo-gallery .tz-gallery .lightbox:hover:after,
+#photo-gallery.tz-gallery .lightbox:hover:before {
+    opacity: 1;
+}
+
+.baguetteBox-button {
+    background-color: transparent !important;
+}
+
+
+@media(max-width: 768px) {
+    body {
+        padding: 0;
+    }
+
+    #hero-img img {
+        width: 120px;
+    }
+
+    .benefits .col-md-6 {
+        width: 100%;
+    }
+
+    #icons .features .col-md-4 {
+        padding: 20px;
+    }
+    #benefits{
+        padding-top: 30px;
+    }
+    #benefits img{
+        width: 140px;
+    }
+}
